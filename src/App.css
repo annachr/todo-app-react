@@ -75,7 +75,12 @@ li {
 }
 
 @media (max-width: 1090px) {
+  body {
+    margin: 8vh 10vh;
+  }
+
   li {
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     word-wrap: break-word;
@@ -90,6 +95,12 @@ li {
     width: 20%;
     min-width: 60px;
     padding: 0;
+    margin-bottom: 10px;
   }
 }
 
+@media (max-width: 576px) {
+  body {
+    margin: 8vh 5vh;
+  }
+}
